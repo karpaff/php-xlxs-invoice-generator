@@ -1,0 +1,72 @@
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    font-weight: bold;
+}
+
+.choose-option {
+    display: flex;
+    flex-direction: row;
+}
+.columns {
+    display: flex;
+}
+
+.choose-column {
+    width: 30%;
+    margin-right: 2%;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+#result {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+#totalPrice {
+    font-size: 18px;
+    color: #333;
+}
+
+#excelLink {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+#excelLink:hover {
+    text-decoration: underline;
+}
